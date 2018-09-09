@@ -1,0 +1,18 @@
+#
+# For consistent file formatting, this project uses editorconfig to set file formatting across multiple IDEs.
+# Be sure to install the editorconfig plugin for your IDE
+# 
+# http://editorconfig.org/
+#
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[{src,lib}/**.{json,js,jsx,ts,tsx,css,less,scss,html}]
+indent_style = space
+indent_size = 2
