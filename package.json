@@ -1,6 +1,6 @@
 {
   "name": "ts-healthcheck-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Express middleware for creating a health endpoint, written in Typescript",
   "main": "index.js",
   "scripts": {
