@@ -1,0 +1,15 @@
+# 
+# npm ignore
+#
+# mimic gitignore
+# but include dist/ folder
+# so we can publish our distributed code
+# to npm
+# 
+
+# system files
+.DS_Store
+
+# node.js
+node_modules/
+npm-debug.log*
