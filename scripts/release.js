@@ -17,4 +17,7 @@ execSync(`npm version ${bump}`, err => console.log(err));
 console.log('Publishing to NPM...');
 execSync(`npm publish`, err => console.log(err));
 
+console.log('Pushing to Git...');
+execSync(`git push`, err => console.log(err));
+
 console.log('Success!');
